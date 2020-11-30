@@ -18,16 +18,12 @@ build: [
 depends: [
   "ocaml"             {>= "4.07.0"}
   "dune"              {>= "2.6.0"}
+  "conduit"           {>= "3.0.0"}
+  "conduit-tls"       {>= "3.0.0"}
+  "conduit-mirage"    {>= "3.0.0"}
+  "cohttp"            {>= "3.0.0"}
+  "cohttp-lwt"        {>= "3.0.0"}
+  "cohttp-mirage"     {>= "3.0.0"}
   "git"
   "git-cohttp"
-  "cohttp-mirage"
-]
-
-pin-depends: [
-  [ "conduit.dev" "git+https://github.com/mirage/ocaml-conduit.git#8912d458b2f3e43245e99cf3cb74e9c00712a8b0" ]
-  [ "conduit-tls.dev" "git+https://github.com/mirage/ocaml-conduit.git#8912d458b2f3e43245e99cf3cb74e9c00712a8b0" ]
-  [ "conduit-mirage.dev" "git+https://github.com/mirage/ocaml-conduit.git#8912d458b2f3e43245e99cf3cb74e9c00712a8b0" ]
-  [ "cohttp.dev" "git+https://github.com/dinosaure/ocaml-cohttp.git#7f0efc6d7e0420e3abff99d29633519785c41f4b" ]
-  [ "cohttp-lwt.dev" "git+https://github.com/dinosaure/ocaml-cohttp.git#7f0efc6d7e0420e3abff99d29633519785c41f4b" ]
-  [ "cohttp-mirage.dev" "git+https://github.com/dinosaure/ocaml-cohttp.git#7f0efc6d7e0420e3abff99d29633519785c41f4b" ]
 ]

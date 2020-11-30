@@ -19,11 +19,6 @@ depends: [
   "ocaml"             {>= "4.07.0"}
   "dune"              {>= "2.6.0"}
   "git"
-  "cohttp"
-  "cohttp-lwt"
-]
-
-pin-depends: [
-  [ "cohttp.dev" "git+https://github.com/dinosaure/ocaml-cohttp.git#10ce452be074e91400c81271fd444af62c130019" ]
-  [ "cohttp-lwt.dev" "git+https://github.com/dinosaure/ocaml-cohttp.git#10ce452be074e91400c81271fd444af62c130019" ]
+  "cohttp"            {>= "3.0.0"}
+  "cohttp-lwt"        {>= "3.0.0"}
 ]
